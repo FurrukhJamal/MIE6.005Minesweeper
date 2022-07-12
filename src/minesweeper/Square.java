@@ -54,6 +54,9 @@ public class Square {
 		this.hasBomb = true;
 	}
 	
+	public void removeBomb() {
+		this.hasBomb = false;
+	}
 	public void toggleFlag() {
 		this.isFlagged = !this.isFlagged;
 	}

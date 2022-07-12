@@ -55,14 +55,14 @@ public class MinesweeperServerTest {
         }
     }
 	
-	@Test
-	public void test() {
-		Thread thread = this.startMinesweeperServer();
-		Socket socket = this.connectToMinesweeperServer(thread);
-		
-		BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-		PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-	}
+	//@Test
+//	public void test() {
+//		Thread thread = this.startMinesweeperServer();
+//		Socket socket = this.connectToMinesweeperServer(thread);
+//		
+//		BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+//		PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+//	}
 	
 	
 }

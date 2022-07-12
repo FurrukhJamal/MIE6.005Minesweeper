@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="LAPTOP-37F339O8" name="autograder.HelloCountTest" skipped="0" tests="1" time="0.168" timestamp="2022-07-12T19:47:52">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes" />
+    <property name="user.country.format" value="PK" />
+    <property name="sun.desktop" value="windows" />
+    <property name="final.grading" value="true" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+    <property name="java.runtime.version" value="1.8.0_281-b09" />
+    <property name="user.name" value="furru" />
+    <property name="ant.build.javac.target" value="1.8" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin" />
+    <property name="grader.report.file" value="my-grader-report.xml" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="java.version" value="1.8.0_281" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\furru\eclipse-workspace\ps2-minesweeper\grader.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="final.grader.jar" value="ps2-final-grader.jar" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.281-b09" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\furru" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="which.tests.ran" value="BETA + FINAL" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Softwares/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY\;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Users\furru\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\furru\AppData\Local\atom\bin;C:\Users\furru\AppData\Local\Android\Sdk\platform-tools;C:\Users\furru\AppData\Local\Android\Sdk;C:\Users\furru\AppData\Roaming\npm;D:\xampp\php\;C:\Users\furru\AppData\Roaming\Composer\vendor\bin;C:\Users\furru\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner autograder.HelloCountTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\furru\eclipse-workspace\ps2-minesweeper\.grader\TEST-autograder.HelloCountTest.xml crashfile=C:\Users\furru\eclipse-workspace\ps2-minesweeper\.grader\junitvmwatcher5777414788654683283.properties propsfile=C:\Users\furru\eclipse-workspace\ps2-minesweeper\.grader\junit3239935957082833502.properties" />
+    <property name="java.class.path" value="C:\Users\furru\eclipse-workspace\ps2-minesweeper\lib\junit-4.12.jar;C:\Users\furru\eclipse-workspace\ps2-minesweeper\lib\hamcrest-core-1.3.jar;C:\Users\furru\eclipse-workspace\ps2-minesweeper\lib\parserlib.jar;C:\Users\furru\eclipse-workspace\ps2-minesweeper\.grader\bin-tests-final;C:\Users\furru\eclipse-workspace\ps2-minesweeper\.grader\bin-student;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+    <property name="project.name" value="ps2-minesweeper" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="didit.desc" value="Running our final tests against your implementation" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\furru\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\furru\eclipse-workspace\ps2-minesweeper" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="zipfile" value="my-submission.zip" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="problem.set" value="ps2" />
+    <property name="basedir" value="C:\Users\furru\eclipse-workspace\ps2-minesweeper" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="D:\Softwares\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="grader.dir" value=".grader" />
+    <property name="ant.project.invoked-targets" value="all" />
+  </properties>
+  <testcase classname="autograder.HelloCountTest" name="testHelloCount" time="0.094" />
+  <system-out><![CDATA[Tuple in for each of Tuple:(5,6)
+Coordinates of bomb are:(5,6)
+x: 6
+y: 5
+Tuple in for each of Tuple:(3,4)
+Coordinates of bomb are:(3,4)
+x: 4
+y: 3
+Tuple in for each of Tuple:(7,8)
+Coordinates of bomb are:(7,8)
+x: 8
+y: 7
+Tuple in for each of Tuple:(6,6)
+Coordinates of bomb are:(6,6)
+x: 6
+y: 6
+Tuple in for each of Tuple:(4,4)
+Coordinates of bomb are:(4,4)
+x: 4
+y: 4
+Tuple in for each of Tuple:(3,2)
+Coordinates of bomb are:(3,2)
+x: 2
+y: 3
+Tuple in for each of Tuple:(2,0)
+Coordinates of bomb are:(2,0)
+x: 0
+y: 2
+Tuple in for each of Tuple:(6,4)
+Coordinates of bomb are:(6,4)
+x: 4
+y: 6
+Tuple in for each of Tuple:(8,4)
+Coordinates of bomb are:(8,4)
+x: 4
+y: 8
+Tuple in for each of Tuple:(6,2)
+Coordinates of bomb are:(6,2)
+x: 2
+y: 6
+Tuple in for each of Tuple:(5,0)
+Coordinates of bomb are:(5,0)
+x: 0
+y: 5
+Tuple in for each of Tuple:(9,0)
+Coordinates of bomb are:(9,0)
+x: 0
+y: 9
+Tuple in for each of Tuple:(0,9)
+Coordinates of bomb are:(0,9)
+x: 9
+y: 0
+Tuple in for each of Tuple:(1,9)
+Coordinates of bomb are:(1,9)
+x: 9
+y: 1
+Tuple in for each of Tuple:(1,7)
+Coordinates of bomb are:(1,7)
+x: 7
+y: 1
+Tuple in for each of Tuple:(2,7)
+Coordinates of bomb are:(2,7)
+x: 7
+y: 2
+Tuple in for each of Tuple:(6,9)
+Coordinates of bomb are:(6,9)
+x: 9
+y: 6
+Tuple in for each of Tuple:(2,3)
+Coordinates of bomb are:(2,3)
+x: 3
+y: 2
+Tuple in for each of Tuple:(5,5)
+Coordinates of bomb are:(5,5)
+x: 5
+y: 5
+Tuple in for each of Tuple:(2,1)
+Coordinates of bomb are:(2,1)
+x: 1
+y: 2
+Tuple in for each of Tuple:(7,5)
+Coordinates of bomb are:(7,5)
+x: 5
+y: 7
+Tuple in for each of Tuple:(3,1)
+Coordinates of bomb are:(3,1)
+x: 1
+y: 3
+Tuple in for each of Tuple:(5,1)
+Coordinates of bomb are:(5,1)
+x: 1
+y: 5
+Tuple in for each of Tuple:(0,8)
+Coordinates of bomb are:(0,8)
+x: 8
+y: 0
+Tuple in for each of Tuple:(6,8)
+Coordinates of bomb are:(6,8)
+x: 8
+y: 6
+Square in getneighbourCOunt: (0,0)
+rowNumber: 0
+colNumber: 0
+maxRow :1
+minRow :0
+maxCol :1
+minCol :0
+Neighboring: row: 0 col: 0
+Neighboring: row: 1 col: 0
+Neighboring: row: 0 col: 1
+Neighboring: row: 1 col: 1
+Square in getneighbourCOunt: (0,1)
+rowNumber: 0
+colNumber: 1
+maxRow :1
+minRow :0
+maxCol :2
+minCol :0
+Neighboring: row: 0 col: 0
+Neighboring: row: 1 col: 0
+Neighboring: row: 2 col: 0
+Neighboring: row: 0 col: 1
+Neighboring: row: 1 col: 1
+Neighboring: row: 2 col: 1
+Square in getneighbourCOunt: (0,2)
+rowNumber: 0
+colNumber: 2
+maxRow :1
+minRow :0
+maxCol :3
+minCol :1
+Neighboring: row: 1 col: 0
+Neighboring: row: 2 col: 0
+Neighboring: row: 3 col: 0
+Neighboring: row: 1 col: 1
+Neighboring: row: 2 col: 1
+Neighboring: row: 3 col: 1
+Square in getneighbourCOunt: (0,3)
+rowNumber: 0
+colNumber: 3
+maxRow :1
+minRow :0
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 0
+Neighboring: row: 3 col: 0
+Neighboring: row: 4 col: 0
+Neighboring: row: 2 col: 1
+Neighboring: row: 3 col: 1
+Neighboring: row: 4 col: 1
+Square in getneighbourCOunt: (0,4)
+rowNumber: 0
+colNumber: 4
+maxRow :1
+minRow :0
+maxCol :5
+minCol :3
+Neighboring: row: 3 col: 0
+Neighboring: row: 4 col: 0
+Neighboring: row: 5 col: 0
+Neighboring: row: 3 col: 1
+Neighboring: row: 4 col: 1
+Neighboring: row: 5 col: 1
+Square in getneighbourCOunt: (0,5)
+rowNumber: 0
+colNumber: 5
+maxRow :1
+minRow :0
+maxCol :6
+minCol :4
+Neighboring: row: 4 col: 0
+Neighboring: row: 5 col: 0
+Neighboring: row: 6 col: 0
+Neighboring: row: 4 col: 1
+Neighboring: row: 5 col: 1
+Neighboring: row: 6 col: 1
+Square in getneighbourCOunt: (0,6)
+rowNumber: 0
+colNumber: 6
+maxRow :1
+minRow :0
+maxCol :7
+minCol :5
+Neighboring: row: 5 col: 0
+Neighboring: row: 6 col: 0
+Neighboring: row: 7 col: 0
+Neighboring: row: 5 col: 1
+Neighboring: row: 6 col: 1
+Neighboring: row: 7 col: 1
+bomb at square(row: 1 col: 7
+Square in getneighbourCOunt: (0,7)
+rowNumber: 0
+colNumber: 7
+maxRow :1
+minRow :0
+maxCol :8
+minCol :6
+Neighboring: row: 6 col: 0
+Neighboring: row: 7 col: 0
+Neighboring: row: 8 col: 0
+bomb at square(row: 0 col: 8
+Neighboring: row: 6 col: 1
+Neighboring: row: 7 col: 1
+bomb at square(row: 1 col: 7
+Neighboring: row: 8 col: 1
+Square in getneighbourCOunt: (1,0)
+rowNumber: 1
+colNumber: 0
+maxRow :2
+minRow :0
+maxCol :1
+minCol :0
+Neighboring: row: 0 col: 0
+Neighboring: row: 1 col: 0
+Neighboring: row: 0 col: 1
+Neighboring: row: 1 col: 1
+Neighboring: row: 0 col: 2
+bomb at square(row: 2 col: 0
+Neighboring: row: 1 col: 2
+bomb at square(row: 2 col: 1
+Square in getneighbourCOunt: (1,1)
+rowNumber: 1
+colNumber: 1
+maxRow :2
+minRow :0
+maxCol :2
+minCol :0
+Neighboring: row: 0 col: 0
+Neighboring: row: 1 col: 0
+Neighboring: row: 2 col: 0
+Neighboring: row: 0 col: 1
+Neighboring: row: 1 col: 1
+Neighboring: row: 2 col: 1
+Neighboring: row: 0 col: 2
+bomb at square(row: 2 col: 0
+Neighboring: row: 1 col: 2
+bomb at square(row: 2 col: 1
+Neighboring: row: 2 col: 2
+Square in getneighbourCOunt: (1,2)
+rowNumber: 1
+colNumber: 2
+maxRow :2
+minRow :0
+maxCol :3
+minCol :1
+Neighboring: row: 1 col: 0
+Neighboring: row: 2 col: 0
+Neighboring: row: 3 col: 0
+Neighboring: row: 1 col: 1
+Neighboring: row: 2 col: 1
+Neighboring: row: 3 col: 1
+Neighboring: row: 1 col: 2
+bomb at square(row: 2 col: 1
+Neighboring: row: 2 col: 2
+Neighboring: row: 3 col: 2
+bomb at square(row: 2 col: 3
+Square in getneighbourCOunt: (1,3)
+rowNumber: 1
+colNumber: 3
+maxRow :2
+minRow :0
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 0
+Neighboring: row: 3 col: 0
+Neighboring: row: 4 col: 0
+Neighboring: row: 2 col: 1
+Neighboring: row: 3 col: 1
+Neighboring: row: 4 col: 1
+Neighboring: row: 2 col: 2
+Neighboring: row: 3 col: 2
+bomb at square(row: 2 col: 3
+Neighboring: row: 4 col: 2
+Square in getneighbourCOunt: (1,4)
+rowNumber: 1
+colNumber: 4
+maxRow :2
+minRow :0
+maxCol :5
+minCol :3
+Neighboring: row: 3 col: 0
+Neighboring: row: 4 col: 0
+Neighboring: row: 5 col: 0
+Neighboring: row: 3 col: 1
+Neighboring: row: 4 col: 1
+Neighboring: row: 5 col: 1
+Neighboring: row: 3 col: 2
+bomb at square(row: 2 col: 3
+Neighboring: row: 4 col: 2
+Neighboring: row: 5 col: 2
+Square in getneighbourCOunt: (1,5)
+rowNumber: 1
+colNumber: 5
+maxRow :2
+minRow :0
+maxCol :6
+minCol :4
+Neighboring: row: 4 col: 0
+Neighboring: row: 5 col: 0
+Neighboring: row: 6 col: 0
+Neighboring: row: 4 col: 1
+Neighboring: row: 5 col: 1
+Neighboring: row: 6 col: 1
+Neighboring: row: 4 col: 2
+Neighboring: row: 5 col: 2
+Neighboring: row: 6 col: 2
+Square in getneighbourCOunt: (1,6)
+rowNumber: 1
+colNumber: 6
+maxRow :2
+minRow :0
+maxCol :7
+minCol :5
+Neighboring: row: 5 col: 0
+Neighboring: row: 6 col: 0
+Neighboring: row: 7 col: 0
+Neighboring: row: 5 col: 1
+Neighboring: row: 6 col: 1
+Neighboring: row: 7 col: 1
+bomb at square(row: 1 col: 7
+Neighboring: row: 5 col: 2
+Neighboring: row: 6 col: 2
+Neighboring: row: 7 col: 2
+bomb at square(row: 2 col: 7
+Square in getneighbourCOunt: (1,8)
+rowNumber: 1
+colNumber: 8
+maxRow :2
+minRow :0
+maxCol :9
+minCol :7
+Neighboring: row: 7 col: 0
+Neighboring: row: 8 col: 0
+bomb at square(row: 0 col: 8
+Neighboring: row: 9 col: 0
+bomb at square(row: 0 col: 9
+Neighboring: row: 7 col: 1
+bomb at square(row: 1 col: 7
+Neighboring: row: 8 col: 1
+Neighboring: row: 9 col: 1
+bomb at square(row: 1 col: 9
+Neighboring: row: 7 col: 2
+bomb at square(row: 2 col: 7
+Neighboring: row: 8 col: 2
+Neighboring: row: 9 col: 2
+Square in getneighbourCOunt: (2,2)
+rowNumber: 2
+colNumber: 2
+maxRow :3
+minRow :1
+maxCol :3
+minCol :1
+Neighboring: row: 1 col: 1
+Neighboring: row: 2 col: 1
+Neighboring: row: 3 col: 1
+Neighboring: row: 1 col: 2
+bomb at square(row: 2 col: 1
+Neighboring: row: 2 col: 2
+Neighboring: row: 3 col: 2
+bomb at square(row: 2 col: 3
+Neighboring: row: 1 col: 3
+bomb at square(row: 3 col: 1
+Neighboring: row: 2 col: 3
+bomb at square(row: 3 col: 2
+Neighboring: row: 3 col: 3
+Square in getneighbourCOunt: (2,4)
+rowNumber: 2
+colNumber: 4
+maxRow :3
+minRow :1
+maxCol :5
+minCol :3
+Neighboring: row: 3 col: 1
+Neighboring: row: 4 col: 1
+Neighboring: row: 5 col: 1
+Neighboring: row: 3 col: 2
+bomb at square(row: 2 col: 3
+Neighboring: row: 4 col: 2
+Neighboring: row: 5 col: 2
+Neighboring: row: 3 col: 3
+Neighboring: row: 4 col: 3
+bomb at square(row: 3 col: 4
+Neighboring: row: 5 col: 3
+Square in getneighbourCOunt: (2,5)
+rowNumber: 2
+colNumber: 5
+maxRow :3
+minRow :1
+maxCol :6
+minCol :4
+Neighboring: row: 4 col: 1
+Neighboring: row: 5 col: 1
+Neighboring: row: 6 col: 1
+Neighboring: row: 4 col: 2
+Neighboring: row: 5 col: 2
+Neighboring: row: 6 col: 2
+Neighboring: row: 4 col: 3
+bomb at square(row: 3 col: 4
+Neighboring: row: 5 col: 3
+Neighboring: row: 6 col: 3
+Square in getneighbourCOunt: (2,6)
+rowNumber: 2
+colNumber: 6
+maxRow :3
+minRow :1
+maxCol :7
+minCol :5
+Neighboring: row: 5 col: 1
+Neighboring: row: 6 col: 1
+Neighboring: row: 7 col: 1
+bomb at square(row: 1 col: 7
+Neighboring: row: 5 col: 2
+Neighboring: row: 6 col: 2
+Neighboring: row: 7 col: 2
+bomb at square(row: 2 col: 7
+Neighboring: row: 5 col: 3
+Neighboring: row: 6 col: 3
+Neighboring: row: 7 col: 3
+Square in getneighbourCOunt: (2,8)
+rowNumber: 2
+colNumber: 8
+maxRow :3
+minRow :1
+maxCol :9
+minCol :7
+Neighboring: row: 7 col: 1
+bomb at square(row: 1 col: 7
+Neighboring: row: 8 col: 1
+Neighboring: row: 9 col: 1
+bomb at square(row: 1 col: 9
+Neighboring: row: 7 col: 2
+bomb at square(row: 2 col: 7
+Neighboring: row: 8 col: 2
+Neighboring: row: 9 col: 2
+Neighboring: row: 7 col: 3
+Neighboring: row: 8 col: 3
+Neighboring: row: 9 col: 3
+Square in getneighbourCOunt: (2,9)
+rowNumber: 2
+colNumber: 9
+maxRow :3
+minRow :1
+maxCol :9
+minCol :8
+Neighboring: row: 8 col: 1
+Neighboring: row: 9 col: 1
+bomb at square(row: 1 col: 9
+Neighboring: row: 8 col: 2
+Neighboring: row: 9 col: 2
+Neighboring: row: 8 col: 3
+Neighboring: row: 9 col: 3
+Square in getneighbourCOunt: (3,0)
+rowNumber: 3
+colNumber: 0
+maxRow :4
+minRow :2
+maxCol :1
+minCol :0
+Neighboring: row: 0 col: 2
+bomb at square(row: 2 col: 0
+Neighboring: row: 1 col: 2
+bomb at square(row: 2 col: 1
+Neighboring: row: 0 col: 3
+Neighboring: row: 1 col: 3
+bomb at square(row: 3 col: 1
+Neighboring: row: 0 col: 4
+Neighboring: row: 1 col: 4
+Square in getneighbourCOunt: (3,3)
+rowNumber: 3
+colNumber: 3
+maxRow :4
+minRow :2
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 2
+Neighboring: row: 3 col: 2
+bomb at square(row: 2 col: 3
+Neighboring: row: 4 col: 2
+Neighboring: row: 2 col: 3
+bomb at square(row: 3 col: 2
+Neighboring: row: 3 col: 3
+Neighboring: row: 4 col: 3
+bomb at square(row: 3 col: 4
+Neighboring: row: 2 col: 4
+Neighboring: row: 3 col: 4
+Neighboring: row: 4 col: 4
+bomb at square(row: 4 col: 4
+Square in getneighbourCOunt: (3,5)
+rowNumber: 3
+colNumber: 5
+maxRow :4
+minRow :2
+maxCol :6
+minCol :4
+Neighboring: row: 4 col: 2
+Neighboring: row: 5 col: 2
+Neighboring: row: 6 col: 2
+Neighboring: row: 4 col: 3
+bomb at square(row: 3 col: 4
+Neighboring: row: 5 col: 3
+Neighboring: row: 6 col: 3
+Neighboring: row: 4 col: 4
+bomb at square(row: 4 col: 4
+Neighboring: row: 5 col: 4
+Neighboring: row: 6 col: 4
+Square in getneighbourCOunt: (3,6)
+rowNumber: 3
+colNumber: 6
+maxRow :4
+minRow :2
+maxCol :7
+minCol :5
+Neighboring: row: 5 col: 2
+Neighboring: row: 6 col: 2
+Neighboring: row: 7 col: 2
+bomb at square(row: 2 col: 7
+Neighboring: row: 5 col: 3
+Neighboring: row: 6 col: 3
+Neighboring: row: 7 col: 3
+Neighboring: row: 5 col: 4
+Neighboring: row: 6 col: 4
+Neighboring: row: 7 col: 4
+Square in getneighbourCOunt: (3,7)
+rowNumber: 3
+colNumber: 7
+maxRow :4
+minRow :2
+maxCol :8
+minCol :6
+Neighboring: row: 6 col: 2
+Neighboring: row: 7 col: 2
+bomb at square(row: 2 col: 7
+Neighboring: row: 8 col: 2
+Neighboring: row: 6 col: 3
+Neighboring: row: 7 col: 3
+Neighboring: row: 8 col: 3
+Neighboring: row: 6 col: 4
+Neighboring: row: 7 col: 4
+Neighboring: row: 8 col: 4
+Square in getneighbourCOunt: (3,8)
+rowNumber: 3
+colNumber: 8
+maxRow :4
+minRow :2
+maxCol :9
+minCol :7
+Neighboring: row: 7 col: 2
+bomb at square(row: 2 col: 7
+Neighboring: row: 8 col: 2
+Neighboring: row: 9 col: 2
+Neighboring: row: 7 col: 3
+Neighboring: row: 8 col: 3
+Neighboring: row: 9 col: 3
+Neighboring: row: 7 col: 4
+Neighboring: row: 8 col: 4
+Neighboring: row: 9 col: 4
+Square in getneighbourCOunt: (3,9)
+rowNumber: 3
+colNumber: 9
+maxRow :4
+minRow :2
+maxCol :9
+minCol :8
+Neighboring: row: 8 col: 2
+Neighboring: row: 9 col: 2
+Neighboring: row: 8 col: 3
+Neighboring: row: 9 col: 3
+Neighboring: row: 8 col: 4
+Neighboring: row: 9 col: 4
+Square in getneighbourCOunt: (4,0)
+rowNumber: 4
+colNumber: 0
+maxRow :5
+minRow :3
+maxCol :1
+minCol :0
+Neighboring: row: 0 col: 3
+Neighboring: row: 1 col: 3
+bomb at square(row: 3 col: 1
+Neighboring: row: 0 col: 4
+Neighboring: row: 1 col: 4
+Neighboring: row: 0 col: 5
+bomb at square(row: 5 col: 0
+Neighboring: row: 1 col: 5
+bomb at square(row: 5 col: 1
+Square in getneighbourCOunt: (4,1)
+rowNumber: 4
+colNumber: 1
+maxRow :5
+minRow :3
+maxCol :2
+minCol :0
+Neighboring: row: 0 col: 3
+Neighboring: row: 1 col: 3
+bomb at square(row: 3 col: 1
+Neighboring: row: 2 col: 3
+bomb at square(row: 3 col: 2
+Neighboring: row: 0 col: 4
+Neighboring: row: 1 col: 4
+Neighboring: row: 2 col: 4
+Neighboring: row: 0 col: 5
+bomb at square(row: 5 col: 0
+Neighboring: row: 1 col: 5
+bomb at square(row: 5 col: 1
+Neighboring: row: 2 col: 5
+Square in getneighbourCOunt: (4,2)
+rowNumber: 4
+colNumber: 2
+maxRow :5
+minRow :3
+maxCol :3
+minCol :1
+Neighboring: row: 1 col: 3
+bomb at square(row: 3 col: 1
+Neighboring: row: 2 col: 3
+bomb at square(row: 3 col: 2
+Neighboring: row: 3 col: 3
+Neighboring: row: 1 col: 4
+Neighboring: row: 2 col: 4
+Neighboring: row: 3 col: 4
+Neighboring: row: 1 col: 5
+bomb at square(row: 5 col: 1
+Neighboring: row: 2 col: 5
+Neighboring: row: 3 col: 5
+Square in getneighbourCOunt: (4,3)
+rowNumber: 4
+colNumber: 3
+maxRow :5
+minRow :3
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 3
+bomb at square(row: 3 col: 2
+Neighboring: row: 3 col: 3
+Neighboring: row: 4 col: 3
+bomb at square(row: 3 col: 4
+Neighboring: row: 2 col: 4
+Neighboring: row: 3 col: 4
+Neighboring: row: 4 col: 4
+bomb at square(row: 4 col: 4
+Neighboring: row: 2 col: 5
+Neighboring: row: 3 col: 5
+Neighboring: row: 4 col: 5
+Square in getneighbourCOunt: (4,5)
+rowNumber: 4
+colNumber: 5
+maxRow :5
+minRow :3
+maxCol :6
+minCol :4
+Neighboring: row: 4 col: 3
+bomb at square(row: 3 col: 4
+Neighboring: row: 5 col: 3
+Neighboring: row: 6 col: 3
+Neighboring: row: 4 col: 4
+bomb at square(row: 4 col: 4
+Neighboring: row: 5 col: 4
+Neighboring: row: 6 col: 4
+Neighboring: row: 4 col: 5
+Neighboring: row: 5 col: 5
+bomb at square(row: 5 col: 5
+Neighboring: row: 6 col: 5
+bomb at square(row: 5 col: 6
+Square in getneighbourCOunt: (4,6)
+rowNumber: 4
+colNumber: 6
+maxRow :5
+minRow :3
+maxCol :7
+minCol :5
+Neighboring: row: 5 col: 3
+Neighboring: row: 6 col: 3
+Neighboring: row: 7 col: 3
+Neighboring: row: 5 col: 4
+Neighboring: row: 6 col: 4
+Neighboring: row: 7 col: 4
+Neighboring: row: 5 col: 5
+bomb at square(row: 5 col: 5
+Neighboring: row: 6 col: 5
+bomb at square(row: 5 col: 6
+Neighboring: row: 7 col: 5
+Square in getneighbourCOunt: (4,7)
+rowNumber: 4
+colNumber: 7
+maxRow :5
+minRow :3
+maxCol :8
+minCol :6
+Neighboring: row: 6 col: 3
+Neighboring: row: 7 col: 3
+Neighboring: row: 8 col: 3
+Neighboring: row: 6 col: 4
+Neighboring: row: 7 col: 4
+Neighboring: row: 8 col: 4
+Neighboring: row: 6 col: 5
+bomb at square(row: 5 col: 6
+Neighboring: row: 7 col: 5
+Neighboring: row: 8 col: 5
+Square in getneighbourCOunt: (4,8)
+rowNumber: 4
+colNumber: 8
+maxRow :5
+minRow :3
+maxCol :9
+minCol :7
+Neighboring: row: 7 col: 3
+Neighboring: row: 8 col: 3
+Neighboring: row: 9 col: 3
+Neighboring: row: 7 col: 4
+Neighboring: row: 8 col: 4
+Neighboring: row: 9 col: 4
+Neighboring: row: 7 col: 5
+Neighboring: row: 8 col: 5
+Neighboring: row: 9 col: 5
+Square in getneighbourCOunt: (4,9)
+rowNumber: 4
+colNumber: 9
+maxRow :5
+minRow :3
+maxCol :9
+minCol :8
+Neighboring: row: 8 col: 3
+Neighboring: row: 9 col: 3
+Neighboring: row: 8 col: 4
+Neighboring: row: 9 col: 4
+Neighboring: row: 8 col: 5
+Neighboring: row: 9 col: 5
+Square in getneighbourCOunt: (5,2)
+rowNumber: 5
+colNumber: 2
+maxRow :6
+minRow :4
+maxCol :3
+minCol :1
+Neighboring: row: 1 col: 4
+Neighboring: row: 2 col: 4
+Neighboring: row: 3 col: 4
+Neighboring: row: 1 col: 5
+bomb at square(row: 5 col: 1
+Neighboring: row: 2 col: 5
+Neighboring: row: 3 col: 5
+Neighboring: row: 1 col: 6
+Neighboring: row: 2 col: 6
+bomb at square(row: 6 col: 2
+Neighboring: row: 3 col: 6
+Square in getneighbourCOunt: (5,3)
+rowNumber: 5
+colNumber: 3
+maxRow :6
+minRow :4
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 4
+Neighboring: row: 3 col: 4
+Neighboring: row: 4 col: 4
+bomb at square(row: 4 col: 4
+Neighboring: row: 2 col: 5
+Neighboring: row: 3 col: 5
+Neighboring: row: 4 col: 5
+Neighboring: row: 2 col: 6
+bomb at square(row: 6 col: 2
+Neighboring: row: 3 col: 6
+Neighboring: row: 4 col: 6
+bomb at square(row: 6 col: 4
+Square in getneighbourCOunt: (5,4)
+rowNumber: 5
+colNumber: 4
+maxRow :6
+minRow :4
+maxCol :5
+minCol :3
+Neighboring: row: 3 col: 4
+Neighboring: row: 4 col: 4
+bomb at square(row: 4 col: 4
+Neighboring: row: 5 col: 4
+Neighboring: row: 3 col: 5
+Neighboring: row: 4 col: 5
+Neighboring: row: 5 col: 5
+bomb at square(row: 5 col: 5
+Neighboring: row: 3 col: 6
+Neighboring: row: 4 col: 6
+bomb at square(row: 6 col: 4
+Neighboring: row: 5 col: 6
+Square in getneighbourCOunt: (5,7)
+rowNumber: 5
+colNumber: 7
+maxRow :6
+minRow :4
+maxCol :8
+minCol :6
+Neighboring: row: 6 col: 4
+Neighboring: row: 7 col: 4
+Neighboring: row: 8 col: 4
+Neighboring: row: 6 col: 5
+bomb at square(row: 5 col: 6
+Neighboring: row: 7 col: 5
+Neighboring: row: 8 col: 5
+Neighboring: row: 6 col: 6
+bomb at square(row: 6 col: 6
+Neighboring: row: 7 col: 6
+Neighboring: row: 8 col: 6
+bomb at square(row: 6 col: 8
+Square in getneighbourCOunt: (5,8)
+rowNumber: 5
+colNumber: 8
+maxRow :6
+minRow :4
+maxCol :9
+minCol :7
+Neighboring: row: 7 col: 4
+Neighboring: row: 8 col: 4
+Neighboring: row: 9 col: 4
+Neighboring: row: 7 col: 5
+Neighboring: row: 8 col: 5
+Neighboring: row: 9 col: 5
+Neighboring: row: 7 col: 6
+Neighboring: row: 8 col: 6
+bomb at square(row: 6 col: 8
+Neighboring: row: 9 col: 6
+bomb at square(row: 6 col: 9
+Square in getneighbourCOunt: (5,9)
+rowNumber: 5
+colNumber: 9
+maxRow :6
+minRow :4
+maxCol :9
+minCol :8
+Neighboring: row: 8 col: 4
+Neighboring: row: 9 col: 4
+Neighboring: row: 8 col: 5
+Neighboring: row: 9 col: 5
+Neighboring: row: 8 col: 6
+bomb at square(row: 6 col: 8
+Neighboring: row: 9 col: 6
+bomb at square(row: 6 col: 9
+Square in getneighbourCOunt: (6,0)
+rowNumber: 6
+colNumber: 0
+maxRow :7
+minRow :5
+maxCol :1
+minCol :0
+Neighboring: row: 0 col: 5
+bomb at square(row: 5 col: 0
+Neighboring: row: 1 col: 5
+bomb at square(row: 5 col: 1
+Neighboring: row: 0 col: 6
+Neighboring: row: 1 col: 6
+Neighboring: row: 0 col: 7
+Neighboring: row: 1 col: 7
+Square in getneighbourCOunt: (6,1)
+rowNumber: 6
+colNumber: 1
+maxRow :7
+minRow :5
+maxCol :2
+minCol :0
+Neighboring: row: 0 col: 5
+bomb at square(row: 5 col: 0
+Neighboring: row: 1 col: 5
+bomb at square(row: 5 col: 1
+Neighboring: row: 2 col: 5
+Neighboring: row: 0 col: 6
+Neighboring: row: 1 col: 6
+Neighboring: row: 2 col: 6
+bomb at square(row: 6 col: 2
+Neighboring: row: 0 col: 7
+Neighboring: row: 1 col: 7
+Neighboring: row: 2 col: 7
+Square in getneighbourCOunt: (6,3)
+rowNumber: 6
+colNumber: 3
+maxRow :7
+minRow :5
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 5
+Neighboring: row: 3 col: 5
+Neighboring: row: 4 col: 5
+Neighboring: row: 2 col: 6
+bomb at square(row: 6 col: 2
+Neighboring: row: 3 col: 6
+Neighboring: row: 4 col: 6
+bomb at square(row: 6 col: 4
+Neighboring: row: 2 col: 7
+Neighboring: row: 3 col: 7
+Neighboring: row: 4 col: 7
+Square in getneighbourCOunt: (6,5)
+rowNumber: 6
+colNumber: 5
+maxRow :7
+minRow :5
+maxCol :6
+minCol :4
+Neighboring: row: 4 col: 5
+Neighboring: row: 5 col: 5
+bomb at square(row: 5 col: 5
+Neighboring: row: 6 col: 5
+bomb at square(row: 5 col: 6
+Neighboring: row: 4 col: 6
+bomb at square(row: 6 col: 4
+Neighboring: row: 5 col: 6
+Neighboring: row: 6 col: 6
+bomb at square(row: 6 col: 6
+Neighboring: row: 4 col: 7
+Neighboring: row: 5 col: 7
+bomb at square(row: 7 col: 5
+Neighboring: row: 6 col: 7
+Square in getneighbourCOunt: (6,7)
+rowNumber: 6
+colNumber: 7
+maxRow :7
+minRow :5
+maxCol :8
+minCol :6
+Neighboring: row: 6 col: 5
+bomb at square(row: 5 col: 6
+Neighboring: row: 7 col: 5
+Neighboring: row: 8 col: 5
+Neighboring: row: 6 col: 6
+bomb at square(row: 6 col: 6
+Neighboring: row: 7 col: 6
+Neighboring: row: 8 col: 6
+bomb at square(row: 6 col: 8
+Neighboring: row: 6 col: 7
+Neighboring: row: 7 col: 7
+Neighboring: row: 8 col: 7
+bomb at square(row: 7 col: 8
+Square in getneighbourCOunt: (7,0)
+rowNumber: 7
+colNumber: 0
+maxRow :8
+minRow :6
+maxCol :1
+minCol :0
+Neighboring: row: 0 col: 6
+Neighboring: row: 1 col: 6
+Neighboring: row: 0 col: 7
+Neighboring: row: 1 col: 7
+Neighboring: row: 0 col: 8
+Neighboring: row: 1 col: 8
+Square in getneighbourCOunt: (7,1)
+rowNumber: 7
+colNumber: 1
+maxRow :8
+minRow :6
+maxCol :2
+minCol :0
+Neighboring: row: 0 col: 6
+Neighboring: row: 1 col: 6
+Neighboring: row: 2 col: 6
+bomb at square(row: 6 col: 2
+Neighboring: row: 0 col: 7
+Neighboring: row: 1 col: 7
+Neighboring: row: 2 col: 7
+Neighboring: row: 0 col: 8
+Neighboring: row: 1 col: 8
+Neighboring: row: 2 col: 8
+Square in getneighbourCOunt: (7,2)
+rowNumber: 7
+colNumber: 2
+maxRow :8
+minRow :6
+maxCol :3
+minCol :1
+Neighboring: row: 1 col: 6
+Neighboring: row: 2 col: 6
+bomb at square(row: 6 col: 2
+Neighboring: row: 3 col: 6
+Neighboring: row: 1 col: 7
+Neighboring: row: 2 col: 7
+Neighboring: row: 3 col: 7
+Neighboring: row: 1 col: 8
+Neighboring: row: 2 col: 8
+Neighboring: row: 3 col: 8
+Square in getneighbourCOunt: (7,3)
+rowNumber: 7
+colNumber: 3
+maxRow :8
+minRow :6
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 6
+bomb at square(row: 6 col: 2
+Neighboring: row: 3 col: 6
+Neighboring: row: 4 col: 6
+bomb at square(row: 6 col: 4
+Neighboring: row: 2 col: 7
+Neighboring: row: 3 col: 7
+Neighboring: row: 4 col: 7
+Neighboring: row: 2 col: 8
+Neighboring: row: 3 col: 8
+Neighboring: row: 4 col: 8
+bomb at square(row: 8 col: 4
+Square in getneighbourCOunt: (7,4)
+rowNumber: 7
+colNumber: 4
+maxRow :8
+minRow :6
+maxCol :5
+minCol :3
+Neighboring: row: 3 col: 6
+Neighboring: row: 4 col: 6
+bomb at square(row: 6 col: 4
+Neighboring: row: 5 col: 6
+Neighboring: row: 3 col: 7
+Neighboring: row: 4 col: 7
+Neighboring: row: 5 col: 7
+bomb at square(row: 7 col: 5
+Neighboring: row: 3 col: 8
+Neighboring: row: 4 col: 8
+bomb at square(row: 8 col: 4
+Neighboring: row: 5 col: 8
+Square in getneighbourCOunt: (7,6)
+rowNumber: 7
+colNumber: 6
+maxRow :8
+minRow :6
+maxCol :7
+minCol :5
+Neighboring: row: 5 col: 6
+Neighboring: row: 6 col: 6
+bomb at square(row: 6 col: 6
+Neighboring: row: 7 col: 6
+Neighboring: row: 5 col: 7
+bomb at square(row: 7 col: 5
+Neighboring: row: 6 col: 7
+Neighboring: row: 7 col: 7
+Neighboring: row: 5 col: 8
+Neighboring: row: 6 col: 8
+Neighboring: row: 7 col: 8
+Square in getneighbourCOunt: (7,7)
+rowNumber: 7
+colNumber: 7
+maxRow :8
+minRow :6
+maxCol :8
+minCol :6
+Neighboring: row: 6 col: 6
+bomb at square(row: 6 col: 6
+Neighboring: row: 7 col: 6
+Neighboring: row: 8 col: 6
+bomb at square(row: 6 col: 8
+Neighboring: row: 6 col: 7
+Neighboring: row: 7 col: 7
+Neighboring: row: 8 col: 7
+bomb at square(row: 7 col: 8
+Neighboring: row: 6 col: 8
+Neighboring: row: 7 col: 8
+Neighboring: row: 8 col: 8
+Square in getneighbourCOunt: (7,9)
+rowNumber: 7
+colNumber: 9
+maxRow :8
+minRow :6
+maxCol :9
+minCol :8
+Neighboring: row: 8 col: 6
+bomb at square(row: 6 col: 8
+Neighboring: row: 9 col: 6
+bomb at square(row: 6 col: 9
+Neighboring: row: 8 col: 7
+bomb at square(row: 7 col: 8
+Neighboring: row: 9 col: 7
+Neighboring: row: 8 col: 8
+Neighboring: row: 9 col: 8
+Square in getneighbourCOunt: (8,0)
+rowNumber: 8
+colNumber: 0
+maxRow :9
+minRow :7
+maxCol :1
+minCol :0
+Neighboring: row: 0 col: 7
+Neighboring: row: 1 col: 7
+Neighboring: row: 0 col: 8
+Neighboring: row: 1 col: 8
+Neighboring: row: 0 col: 9
+bomb at square(row: 9 col: 0
+Neighboring: row: 1 col: 9
+Square in getneighbourCOunt: (8,1)
+rowNumber: 8
+colNumber: 1
+maxRow :9
+minRow :7
+maxCol :2
+minCol :0
+Neighboring: row: 0 col: 7
+Neighboring: row: 1 col: 7
+Neighboring: row: 2 col: 7
+Neighboring: row: 0 col: 8
+Neighboring: row: 1 col: 8
+Neighboring: row: 2 col: 8
+Neighboring: row: 0 col: 9
+bomb at square(row: 9 col: 0
+Neighboring: row: 1 col: 9
+Neighboring: row: 2 col: 9
+Square in getneighbourCOunt: (8,2)
+rowNumber: 8
+colNumber: 2
+maxRow :9
+minRow :7
+maxCol :3
+minCol :1
+Neighboring: row: 1 col: 7
+Neighboring: row: 2 col: 7
+Neighboring: row: 3 col: 7
+Neighboring: row: 1 col: 8
+Neighboring: row: 2 col: 8
+Neighboring: row: 3 col: 8
+Neighboring: row: 1 col: 9
+Neighboring: row: 2 col: 9
+Neighboring: row: 3 col: 9
+Square in getneighbourCOunt: (8,3)
+rowNumber: 8
+colNumber: 3
+maxRow :9
+minRow :7
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 7
+Neighboring: row: 3 col: 7
+Neighboring: row: 4 col: 7
+Neighboring: row: 2 col: 8
+Neighboring: row: 3 col: 8
+Neighboring: row: 4 col: 8
+bomb at square(row: 8 col: 4
+Neighboring: row: 2 col: 9
+Neighboring: row: 3 col: 9
+Neighboring: row: 4 col: 9
+Square in getneighbourCOunt: (8,5)
+rowNumber: 8
+colNumber: 5
+maxRow :9
+minRow :7
+maxCol :6
+minCol :4
+Neighboring: row: 4 col: 7
+Neighboring: row: 5 col: 7
+bomb at square(row: 7 col: 5
+Neighboring: row: 6 col: 7
+Neighboring: row: 4 col: 8
+bomb at square(row: 8 col: 4
+Neighboring: row: 5 col: 8
+Neighboring: row: 6 col: 8
+Neighboring: row: 4 col: 9
+Neighboring: row: 5 col: 9
+Neighboring: row: 6 col: 9
+Square in getneighbourCOunt: (8,6)
+rowNumber: 8
+colNumber: 6
+maxRow :9
+minRow :7
+maxCol :7
+minCol :5
+Neighboring: row: 5 col: 7
+bomb at square(row: 7 col: 5
+Neighboring: row: 6 col: 7
+Neighboring: row: 7 col: 7
+Neighboring: row: 5 col: 8
+Neighboring: row: 6 col: 8
+Neighboring: row: 7 col: 8
+Neighboring: row: 5 col: 9
+Neighboring: row: 6 col: 9
+Neighboring: row: 7 col: 9
+Square in getneighbourCOunt: (8,7)
+rowNumber: 8
+colNumber: 7
+maxRow :9
+minRow :7
+maxCol :8
+minCol :6
+Neighboring: row: 6 col: 7
+Neighboring: row: 7 col: 7
+Neighboring: row: 8 col: 7
+bomb at square(row: 7 col: 8
+Neighboring: row: 6 col: 8
+Neighboring: row: 7 col: 8
+Neighboring: row: 8 col: 8
+Neighboring: row: 6 col: 9
+Neighboring: row: 7 col: 9
+Neighboring: row: 8 col: 9
+Square in getneighbourCOunt: (8,8)
+rowNumber: 8
+colNumber: 8
+maxRow :9
+minRow :7
+maxCol :9
+minCol :7
+Neighboring: row: 7 col: 7
+Neighboring: row: 8 col: 7
+bomb at square(row: 7 col: 8
+Neighboring: row: 9 col: 7
+Neighboring: row: 7 col: 8
+Neighboring: row: 8 col: 8
+Neighboring: row: 9 col: 8
+Neighboring: row: 7 col: 9
+Neighboring: row: 8 col: 9
+Neighboring: row: 9 col: 9
+Square in getneighbourCOunt: (8,9)
+rowNumber: 8
+colNumber: 9
+maxRow :9
+minRow :7
+maxCol :9
+minCol :8
+Neighboring: row: 8 col: 7
+bomb at square(row: 7 col: 8
+Neighboring: row: 9 col: 7
+Neighboring: row: 8 col: 8
+Neighboring: row: 9 col: 8
+Neighboring: row: 8 col: 9
+Neighboring: row: 9 col: 9
+Square in getneighbourCOunt: (9,1)
+rowNumber: 9
+colNumber: 1
+maxRow :9
+minRow :8
+maxCol :2
+minCol :0
+Neighboring: row: 0 col: 8
+Neighboring: row: 1 col: 8
+Neighboring: row: 2 col: 8
+Neighboring: row: 0 col: 9
+bomb at square(row: 9 col: 0
+Neighboring: row: 1 col: 9
+Neighboring: row: 2 col: 9
+Square in getneighbourCOunt: (9,2)
+rowNumber: 9
+colNumber: 2
+maxRow :9
+minRow :8
+maxCol :3
+minCol :1
+Neighboring: row: 1 col: 8
+Neighboring: row: 2 col: 8
+Neighboring: row: 3 col: 8
+Neighboring: row: 1 col: 9
+Neighboring: row: 2 col: 9
+Neighboring: row: 3 col: 9
+Square in getneighbourCOunt: (9,3)
+rowNumber: 9
+colNumber: 3
+maxRow :9
+minRow :8
+maxCol :4
+minCol :2
+Neighboring: row: 2 col: 8
+Neighboring: row: 3 col: 8
+Neighboring: row: 4 col: 8
+bomb at square(row: 8 col: 4
+Neighboring: row: 2 col: 9
+Neighboring: row: 3 col: 9
+Neighboring: row: 4 col: 9
+Square in getneighbourCOunt: (9,4)
+rowNumber: 9
+colNumber: 4
+maxRow :9
+minRow :8
+maxCol :5
+minCol :3
+Neighboring: row: 3 col: 8
+Neighboring: row: 4 col: 8
+bomb at square(row: 8 col: 4
+Neighboring: row: 5 col: 8
+Neighboring: row: 3 col: 9
+Neighboring: row: 4 col: 9
+Neighboring: row: 5 col: 9
+Square in getneighbourCOunt: (9,5)
+rowNumber: 9
+colNumber: 5
+maxRow :9
+minRow :8
+maxCol :6
+minCol :4
+Neighboring: row: 4 col: 8
+bomb at square(row: 8 col: 4
+Neighboring: row: 5 col: 8
+Neighboring: row: 6 col: 8
+Neighboring: row: 4 col: 9
+Neighboring: row: 5 col: 9
+Neighboring: row: 6 col: 9
+Square in getneighbourCOunt: (9,6)
+rowNumber: 9
+colNumber: 6
+maxRow :9
+minRow :8
+maxCol :7
+minCol :5
+Neighboring: row: 5 col: 8
+Neighboring: row: 6 col: 8
+Neighboring: row: 7 col: 8
+Neighboring: row: 5 col: 9
+Neighboring: row: 6 col: 9
+Neighboring: row: 7 col: 9
+Square in getneighbourCOunt: (9,7)
+rowNumber: 9
+colNumber: 7
+maxRow :9
+minRow :8
+maxCol :8
+minCol :6
+Neighboring: row: 6 col: 8
+Neighboring: row: 7 col: 8
+Neighboring: row: 8 col: 8
+Neighboring: row: 6 col: 9
+Neighboring: row: 7 col: 9
+Neighboring: row: 8 col: 9
+Square in getneighbourCOunt: (9,8)
+rowNumber: 9
+colNumber: 8
+maxRow :9
+minRow :8
+maxCol :9
+minCol :7
+Neighboring: row: 7 col: 8
+Neighboring: row: 8 col: 8
+Neighboring: row: 9 col: 8
+Neighboring: row: 7 col: 9
+Neighboring: row: 8 col: 9
+Neighboring: row: 9 col: 9
+Square in getneighbourCOunt: (9,9)
+rowNumber: 9
+colNumber: 9
+maxRow :9
+minRow :8
+maxCol :9
+minCol :8
+Neighboring: row: 8 col: 8
+Neighboring: row: 9 col: 8
+Neighboring: row: 8 col: 9
+Neighboring: row: 9 col: 9
+Finally hitting after bye
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

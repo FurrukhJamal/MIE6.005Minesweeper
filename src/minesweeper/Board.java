@@ -173,6 +173,21 @@ public class Board {
     }
     
     
+    private synchronized void updateNeigbourCount() {
+    	for (int y = 0; y < this.sizeRows; y++)
+    	{
+    		for(int x = 0; x < this.sizeColumns; x++)
+    		{
+    			Square square = Board.get(y).get(x);
+    			if(!square.hasBomb())
+    			{
+    				//System.out.println("Coordinates for placed bombs:" +square.getLocation());
+    				this.getneighborCount(square.getX(), square.getY(), square);
+    			}
+    			
+    		}
+    	}
+    }
     
     private synchronized void setupBombs() {
     	for(Tuple bombCoord : this.bombs)
@@ -304,6 +319,8 @@ public class Board {
     	Square square = this.Board.get(rowNumber).get(colNumber);
     	if(square.hasBomb())
     	{
+    		square.removeBomb();
+    		this.updateNeigbourCount();
     		//tell user of a bomb
     		return "BOOM!\r\n"; 
     	}
@@ -312,7 +329,8 @@ public class Board {
     		if(square.getStatus() == "untouched")
     		{
     			//square.diggThisSquare();
-    			this.digAllNeighbors(rowNumber, colNumber);
+    			//this.digAllNeighbors(rowNumber, colNumber);
+    			this.checkAllSixNeighbors(rowNumber, colNumber);
     			
     		}
     		
@@ -321,58 +339,107 @@ public class Board {
     	return "";
     }
     
-public int digAllNeighbors(int rowNumber, int colNumber) {
+    
+    private void checkAllSixNeighbors(int rowNum, int colNum) {
+    	Square square = this.Board.get(rowNum).get(colNum);
+        System.out.println("square in digallneibhors: " +square.getLocation());
+        if(square.getStatus() == "dug")
+        {
+        	return ;
+        } 
+        if(!square.hasBomb())
+        {
+        	System.out.println("inside other condition");
+        	//square.diggThisSquare();
+        	int minRow = Math.max(rowNum - 1, 0);
+        	int maxRow = Math.min(rowNum + 1, this.sizeRows - 1);
+        	
+        	int minCol = Math.max(colNum - 1, 0);
+        	int maxCol = Math.min(colNum + 1, this.sizeColumns - 1);
+        	
+        	//for recursion
+        	//int counter = 0;
+        	//List<Integer> flag = new ArrayList<>();
+        	boolean bombInNeighbors = false;
+        	
+        	for (int y = minRow ; y <= maxRow; y++)
+        	{
+        		for(int x = minCol; x <= maxCol; x++)
+        		{
+        			Square sq = this.Board.get(y).get(x);
+    				System.out.println(sq.getLocation());
+        			
+        			if(this.Board.get(y).get(x).hasBomb())
+        			{
+        				
+        				bombInNeighbors = true;
+        			}
+        			
+        		}
+        	}
+        	
+        	if(bombInNeighbors)
+        	{
+        		square.diggThisSquare();
+        	}
+        	else
+        	{
+        		square.diggThisSquare();
+        		for (int y = minRow ; y <= maxRow; y++)
+            	{
+            		for(int x = minCol; x <= maxCol; x++)
+            		{
+            			this.checkAllSixNeighbors(y, x);            			
+            		}
+            	}
+        	}
+        }
+    }
+    
+    
+    public void digAllNeighbors(int rowNumber, int colNumber) {
     Square square = this.Board.get(rowNumber).get(colNumber);
-    //System.out.println("square in digallneibhors: " +square.getLocation());
-    if(square.getStatus() == "dug" || square.hasBomb())
+    System.out.println("square in digallneibhors: " +square.getLocation());
+    if(square.getStatus() == "dug")
     {
-    	return 1;
+    	return ;
     } 
     if(!square.hasBomb())
     {
     	
-    	//square.diggThisSquare();
+    	System.out.println("rowNumber: " +rowNumber);
+    	System.out.println("colNumber: " +colNumber);
+    	square.diggThisSquare();
     	int minRow = Math.max(rowNumber - 1, 0);
     	int maxRow = Math.min(rowNumber + 1, this.sizeRows - 1);
     	
-    	//System.out.println("maxRow :" +maxRow);
-    	//System.out.println("minRow :" +minRow);
+    	System.out.println("maxRow :" +maxRow);
+    	System.out.println("minRow :" +minRow);
     	
     	int minCol = Math.max(colNumber - 1, 0);
     	int maxCol = Math.min(colNumber + 1, this.sizeColumns - 1);
     	
-    	//System.out.println("maxCol :" +maxCol);
-    	//System.out.println("minCol :" +minCol);
+    	System.out.println("maxCol :" +maxCol);
+    	System.out.println("minCol :" +minCol);
     	//for recursion
-    	int counter = 0;
-    	List<Integer> flag = new ArrayList<>();
+    	//int counter = 0;
+    	//List<Integer> flag = new ArrayList<>();
+    	
     	for (int y = minRow ; y <= maxRow; y++)
     	{
     		for(int x = minCol; x <= maxCol; x++)
     		{
-    			counter++;
-    			flag.add(this.digAllNeighbors(y, x));
+    			//counter++;
+    			this.digAllNeighbors(y, x); 
+    			
     		}
     	}
-    	//some shit i thought of to have proper recurrsion
-    	int sum = 0;
-    	for(int num: flag)
-    	{
-    		sum += num;
-    	}
-    	System.out.println("Sum : " +sum);
     	
-    	if(counter - sum == counter)
-    	{
-    		//none of the neighbor had a bamb and it returned 0
-    		square.diggThisSquare();
-    		return 0;
-    	}
     	
     	
     }
-    square.diggThisSquare();
-    return 10;
+    //square.diggThisSquare();
+    //return 0;
     }
     
     public synchronized void toggleFlagASquare(int rowNumber, int colNumber)
